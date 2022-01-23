@@ -1,0 +1,19 @@
+
+img {
+    max-width: 210mm;
+    max-height: 297mm;
+}
+
+@media only screen and (min-width: 210mm) {
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+    img {
+        max-width: 210mm;
+        max-height: 297mm;
+    }
+  
+}
